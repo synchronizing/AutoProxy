@@ -76,7 +76,7 @@ Notice how the `used` val gets increased by one every time a proxy is called by 
 AutoProxy comes with a configuration class for easy management of logs. To print out logs, it is as simple as:
 
 ```Python
-from autoproxy import Proxy
+from autoproxy import Proxy, Config
 
 c = Config()
 c.PRINT_LOG = True
