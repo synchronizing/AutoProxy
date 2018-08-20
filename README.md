@@ -4,6 +4,10 @@ AutoProxy is a tool designed to make proxy gathering & filtering easy and simple
 
 AutoProxy supports both `requests` and `aiohttp`.
 
+![Example](https://i.imgur.com/DcbcfM4.png)
+
+Gathering and filtering 799 proxies in less than 5 seconds.
+
 ## Installing
 
 ```
