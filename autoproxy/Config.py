@@ -46,8 +46,8 @@ class Config():
         self.ERROR_TO_LOG = True
 
         # Print log.
-        self.PRINT_LOG = True
-        self.PRINT_ERROR_LOG = True
+        self.PRINT_LOG = False
+        self.PRINT_ERROR_LOG = False
 
         # Notebook settings.
         import __main__ as main

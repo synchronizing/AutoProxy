@@ -55,7 +55,7 @@ class Proxy:
         Checks if a given proxy setting is stored to file.
     """
 
-    def __init__(self, url, config = Config(), load = False, name = ''):
+    def __init__(self, url, config = Config(), load = False, filename = '', directory = ''):
         """ Initialization method.
 
         Parameters
@@ -76,7 +76,7 @@ class Proxy:
         }
 
         if load:
-            self.load(name)
+            self.load(filename = filename, directory = directory)
         else:
             self.grab_proxies()
 
