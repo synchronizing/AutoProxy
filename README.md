@@ -4,7 +4,7 @@ AutoProxy is a tool designed to make proxy gathering & filtering easy and simple
 
 AutoProxy supports both `requests` and `aiohttp`. 
 
-**Please note that this is an HTTP proxy gatherer only, and thus websites must be of ```http://``` format! If ```https//``` is used, you will be doing requests from your original IP. Possible addition of ```https``` if requested under Issues.*** 
+**Please note that this is an HTTP proxy gatherer only, and thus websites must be of ```http://``` format! If ```https//``` is used, you will be doing requests from your original IP. Possible addition of ```https``` if requested under Issues.**
 
 ![Example](https://i.imgur.com/DcbcfM4.png)
 
