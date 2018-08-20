@@ -89,7 +89,7 @@ class Config():
         colored_log = []
         for text in log.split():
             if "[" in text and "]" in text:
-                content_dict = {',':'', '.':'', ';': ''}
+                content_dict = {',':'', '.':'.', ';': ''}
                 for key in content_dict:
                     text = text.replace(key, content_dict[key])
 
