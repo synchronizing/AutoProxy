@@ -8,7 +8,7 @@ AutoProxy supports both `requests` and `aiohttp`.
 
 ![Example](https://i.imgur.com/DcbcfM4.png)
 
-Gathering and filtering 799 proxies in less than 5 seconds. Code above:
+Gathering and filtering 799 proxies in less than 5 seconds. Code for above:
 
 ```Python
 from autoproxy import Proxy, Config
