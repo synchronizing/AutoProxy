@@ -2,13 +2,13 @@
 
 AutoProxy is a tool designed to make proxy gathering & filtering easy and simple. One of the biggest issue with downloading free proxies online is the lack of knowledge on whether or not the proxy works. AutoProxy makes it easy to gather, filter, and keep track of proxies being utilized for site-specific tasks.
 
-AutoProxy supports both `requests` and `aiohttp`. 
+AutoProxy supports both `requests` and `aiohttp`.
 
 **Please note that this is an HTTP proxy gatherer only, and thus websites must be of ```http://``` format! If ```https//``` is used, you will be doing requests from your original IP. Possible addition of ```https``` if requested under Issues.**
 
-![Example](https://i.imgur.com/DcbcfM4.png)
+![Example](https://i.imgur.com/XVG5KLx.png)
 
-Gathering and filtering 799 proxies in less than 5 seconds, with a timeout of 4 seconds; 131 proxies that work on Twitter with less than 4 second timeout. Code for above:
+Gathering and filtering 587 proxies in less than 6 seconds, with a timeout of 4 seconds; 109 proxies that work on Twitter with less than 4 second timeout. Code for above:
 
 ```Python
 from autoproxy import Proxy, Config
@@ -40,7 +40,7 @@ from autoproxy import Proxy
 p = Proxy(url = "http://twitter.com")
 ```
 
-Loading instead:
+Note that 'load' only loads a previously saved AutoProxy msgpack configuration file. Loading instead:
 
 ```Python
 from autoproxy import Proxy

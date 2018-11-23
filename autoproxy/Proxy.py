@@ -148,7 +148,7 @@ class Proxy:
                 index = self.proxies.index(proxy)
                 self.proxies[index] = object
 
-                error = "Error loading page for proxy [{}], or timeout. Error info: {}".format(proxy['aiohttp_proxy'], e)
+                error = "Error loading page for proxy [{}], or timeout. {}".format(proxy['aiohttp_proxy'], e)
                 self.config.add_log(err = True, log = error)
 
                 pass
