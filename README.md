@@ -1,3 +1,5 @@
+> Depracated for [Frontman](https://github.com/waultics/Frontman). 
+
 # AutoProxy
 
 AutoProxy is a tool designed to make proxy gathering & filtering easy and simple. One of the biggest issue with downloading free proxies online is the lack of knowledge on whether or not the proxy works. AutoProxy makes it easy to gather, filter, and keep track of proxies being utilized for site-specific tasks.
